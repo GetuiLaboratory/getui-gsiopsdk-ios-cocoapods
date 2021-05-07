@@ -1,0 +1,1 @@
+# getui-gsiopsdk-ios-cocoapods
