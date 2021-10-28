@@ -5,7 +5,7 @@
 //  Created by GeTui on 2017/7/18.
 //  Copyright © 2017年 GeTui. All rights reserved.
 //
-//  Version : GSIOP-IOS-1.2.6.0
+//  Version : GSIOP-IOS-1.2.7.0
 
 #import <Foundation/Foundation.h>
 
@@ -79,7 +79,7 @@
  计数事件统计
  
  @param eventId 事件 Id，需要在个数后台配置才能生效
- @param args 自定义属性，key 必须为 NSString 类型（注意：不能以$开头），，value 仅支持NSNumber, BOOL, NSString, NSDate 4 种类型
+ @param args 自定义属性，key 必须为 NSString 类型（注意：不能以$开头），value 仅支持NSNumber, BOOL, NSString, NSDate 4 种类型
  @param ext 自定义ext字段内容。
  */
 + (void)trackCountEvent:(NSString *)eventId withArgs:(NSDictionary *)args withExt:(NSString *)ext;
