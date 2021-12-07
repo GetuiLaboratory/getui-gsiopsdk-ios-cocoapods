@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "GSIOPSDK"
-  s.version      = "1.2.7.0"
+  s.version      = "1.2.9.0"
   s.summary      = "个推鲸智 IOP iOS SDK CocoaPods 集成库"
 
   # This description is used to generate tags and improve search results.

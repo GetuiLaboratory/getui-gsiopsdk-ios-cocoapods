@@ -5,7 +5,7 @@
 //  Created by GeTui on 2017/7/18.
 //  Copyright © 2017年 GeTui. All rights reserved.
 //
-//  Version : GSIOP-IOS-1.2.7.0
+//  Version : GSIOP-IOS-1.2.9.0
 
 #import <Foundation/Foundation.h>
 
@@ -37,6 +37,17 @@
  设置同一个活跃记录的上报频率限制，默认 30*1000，单位毫秒
  */
 @property (nonatomic, assign) NSInteger appActiveEventFrequencyLimit;
+
+/**
+ 设置服务器地址，比如 https://a.b.c:8080
+ */
+@property (nonatomic, copy) NSString *requestHost;
+
+/**
+ 设置服务器配置，无前后缀无换行
+ */
+@property (nonatomic, copy) NSString *publicKey;
+@property (nonatomic, copy) NSString *publicKeyID;
 
 /**
  SDK 实例，用于获取和设置 SDK 相关配置属性。
