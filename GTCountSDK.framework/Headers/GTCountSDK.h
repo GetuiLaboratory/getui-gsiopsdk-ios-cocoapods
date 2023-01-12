@@ -5,7 +5,7 @@
 //  Created by GeTui on 2017/7/18.
 //  Copyright © 2017年 GeTui. All rights reserved.
 //
-//  Version : GSIOP-IOS-1.2.9.0
+//  Version : GSIOP-IOS-1.3.0.0
 
 #import <Foundation/Foundation.h>
 
