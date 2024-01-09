@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "GSIOPSDK"
-  s.version      = "1.3.0.0"
+  s.version      = "1.3.1.0"
   s.summary      = "个推鲸智 IOP iOS SDK CocoaPods 集成库"
 
   # This description is used to generate tags and improve search results.
@@ -109,7 +109,7 @@ Pod::Spec.new do |s|
   s.dependency 'GTCommonSDK', '>=3.0.0.0'
   # 使用了第三方静态库
   # s.ios.vendored_libraries = 'libxxx.a'
-  s.ios.vendored_frameworks = 'GTCountSDK.framework'
+  s.ios.vendored_frameworks = 'GTIOPSDK.framework'
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #

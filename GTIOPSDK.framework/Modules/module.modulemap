@@ -1,0 +1,6 @@
+framework module GTIOPSDK {
+  umbrella header "GTIOPSDK.h"
+
+  export *
+  module * { export * }
+}
